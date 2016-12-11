@@ -1,4 +1,4 @@
-package ie.gmit.rmifolder;
+package ie.gmit.rmifolder2;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

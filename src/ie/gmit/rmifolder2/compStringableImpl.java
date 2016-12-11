@@ -1,4 +1,4 @@
-package ie.gmit.rmifolder;
+package ie.gmit.rmifolder2;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.HashMap;
@@ -18,7 +18,6 @@ public abstract class compStringableImpl<Algo_DLHDL> extends UnicastRemoteObject
 	{
 		//compStringable inputStringComparison = algorithms.get(algoResult.toLowerCase()).getNewInstance();
 		resultator r = null;
-		// try catch statement for error handling
 		try 
 		{
 			r = new resultatorimpl();

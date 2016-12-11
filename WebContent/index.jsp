@@ -8,7 +8,7 @@
 	<tr>
 		<td valign="top">
 
-			<form bgcolor="white" method="POST" action="index2.jsp">
+			<form bgcolor="white" method="POST" action="doProcess">
 				<fieldset>
 					<legend><h3>Specify Details</h3></legend>
 				

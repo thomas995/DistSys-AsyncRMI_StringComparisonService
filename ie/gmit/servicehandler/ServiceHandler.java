@@ -4,11 +4,14 @@ import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 
-public class ServiceHandler extends HttpServlet {
+public class ServiceHandler extends HttpServlet
+{
+	// private variables
 	private String remoteHost = null;
 	private static long jobNumber = 0;
 
-	public void init() throws ServletException {
+	public void init() throws ServletException 
+	{
 		ServletContext ctx = getServletContext();
 		remoteHost = ctx.getInitParameter("RMI_SERVER"); //Reads the value from the <context-param> in web.xml
 	}
@@ -37,7 +40,7 @@ public class ServiceHandler extends HttpServlet {
 		}
 		
 		
-		
+		// outputs to the screen the instructions on what need to be done and other useful information
 		out.print("<H1>Processing request for Job#: " + taskNumber + "</H1>");
 		out.print("<div id=\"r\"></div>");
 		
